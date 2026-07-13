@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Azure Load Balancer Demo - Server 2</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background-color:#f8d7da;
+            text-align:center;
+            margin-top:100px;
+        }
+        .box{
+            width:600px;
+            margin:auto;
+            padding:30px;
+            border-radius:10px;
+            background:white;
+            box-shadow:0px 0px 10px gray;
+        }
+        h1{
+            color:red;
+        }
+        h2{
+            color:darkred;
+        }
+    </style>
+</head>
+<body>
+
+<div class="box">
+    <h1>Azure Load Balancer Demo</h1>
+    <h2>SERVER 2</h2>
+
+    <h3>Virtual Machine : VM2</h3>
+
+    <p>This page is being served from <b>Server 2</b>.</p>
+
+    <p>Status :
+        <span style="color:red;font-weight:bold;">
+        Running
+        </span>
+    </p>
+
+    <hr>
+
+    <p>
+        Cloud Computing Lab<br>
+        Azure Load Balancer Practical
+    </p>
+
+</div>
+
+</body>
+</html>
